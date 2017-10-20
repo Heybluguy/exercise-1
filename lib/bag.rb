@@ -1,6 +1,6 @@
-require 'pry'
 class Bag
   attr_reader :empty,:count
+
   def initialize
     @count = 0
     @candies = []
